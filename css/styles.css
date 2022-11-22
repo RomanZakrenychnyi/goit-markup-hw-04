@@ -572,3 +572,42 @@ body {
 .footr-telefone:focus {
   color: var(--blue);
 }
+
+.footer-tittle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--blue);
+  outline: transparent;
+}
+
+.footer-link:hover .footer-icon,
+.footer-link:focus .footer-icon {
+  fill: var(--white);
+}
