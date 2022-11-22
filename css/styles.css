@@ -216,6 +216,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
@@ -361,6 +362,7 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--blue);
+  outline: transparent;
 }
 
 .social-link:hover .social-icon,
@@ -376,19 +378,30 @@ body {
   margin-bottom: 50px;
 }
 
-.clien-dots {
+.client-dots {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.clien-item {
+.client-item {
   display: flex;
   height: 92px;
   width: 170px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
-  fill: #AFB1B8;
+  color: #AFB1B8;
+}
+
+.client-item:hover,
+.client-item:focus {
+  border-color: var(--blue);
+  color: var(--blue);
+  outline: transparent;
+}
+
+.client-icon {
+  fill: currentColor;
 }
 
 /* Основная часть портфолио */
