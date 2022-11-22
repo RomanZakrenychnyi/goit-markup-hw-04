@@ -573,6 +573,15 @@ body {
   color: var(--blue);
 }
 
+.footer-box {
+  display: flex;
+}
+
+.footer-links-box {
+  margin: auto;
+  margin-left: 70px;
+}
+
 .footer-tittle {
   font-size: 14px;
   line-height: 1.14;
