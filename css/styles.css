@@ -268,7 +268,8 @@ body {
 }
 
 .presentation-tittle,
-.team-tittle {
+.team-tittle,
+.client-tittle {
   color: var(--nero);
   font-size: 36px;
   font-weight: 700;
@@ -294,7 +295,10 @@ body {
   flex-basis: calc(( 100% - 30px * 2) / 3);
 }
 
-.team {
+.team,
+.presentation,
+.spacials,
+.client {
   background-color: #f5f4fa;
   padding-bottom: 94px;
 }
@@ -310,7 +314,7 @@ body {
 
 .team-area-footer {
   padding-top: 30px;
-  padding-bottom: 19px;
+  padding-bottom: 16px;
 }
 
 .team-dots {
@@ -340,7 +344,7 @@ body {
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  
+  gap: 10px;
 }
 
 .social-link {
@@ -364,6 +368,29 @@ body {
   fill: var(--white);
 }
 
+/* Клієнти */
+
+.client-tittle {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.clien-dots {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clien-item {
+  display: flex;
+  height: 92px;
+  width: 170px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  fill: #AFB1B8;
+}
+
 /* Основная часть портфолио */
 .portfolio {
   background-color: var(--white);
@@ -379,10 +406,6 @@ body {
   margin-bottom: 50px;
   gap: 8px;
 }
-
-/* .portfolio-nav-list {
-  flex-basis: calc((100% - 8px * 4 ) / 5)
-} */
 
 .portfolio-box {
   padding-bottom: 16px;
