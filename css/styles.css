@@ -448,30 +448,16 @@ body {
 }
 
 .portfolio-projects {
-  list-style: none;
   line-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .portfolio-list {
   flex-basis: calc((100% - 30px * 2) / 3)
 }
 
-.portfolio-box {
-  padding-bottom: 16px;
-  margin-bottom: 34px;
-}
-
-.portfolio-box:hover
+.portfolio-box:hover,
 .portfolio-box:focus {
-  outline: transparent;
-}
-
-.portfolio-list:hover,
-.portfolio-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  
 }
 
 .portfolio-box {
@@ -488,9 +474,9 @@ body {
 .portfolio-picture {
   color: var(--nero);
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+
   margin-bottom: 4px;
   margin-top: 0;
 }
@@ -498,11 +484,9 @@ body {
 .portfolio-text {
   color: var(--grey);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 /* Футтер нашого сайту */
